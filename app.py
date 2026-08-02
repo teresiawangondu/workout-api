@@ -1,3 +1,4 @@
+# Main Flask application
 from flask import Flask, request
 from flask_migrate import Migrate
 
