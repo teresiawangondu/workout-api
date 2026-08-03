@@ -8,6 +8,7 @@ db = SQLAlchemy()
 
 
 class Workout(db.Model):
+    """stores information about a workout, including its name and description."""
     __tablename__ = "workouts"
 
     id = db.Column(db.Integer, primary_key=True)
