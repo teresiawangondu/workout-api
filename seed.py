@@ -1,3 +1,4 @@
+# Seed initial workout data
 from app import app
 from models import db, Workout, Exercise, WorkoutExercise
 
